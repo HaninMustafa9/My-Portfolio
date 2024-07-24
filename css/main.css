@@ -21,8 +21,8 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #4e4e4e; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #0a090f; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #0078ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --heading-color: #262223; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #86d7ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -34,7 +34,7 @@
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #0078ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #86d7ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -53,11 +53,11 @@
 }
 
 .accent-background {
-  --background-color: #0078ff;
+  --background-color: #86d7ff;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
-  --surface-color: #3393ff;
+  --surface-color: #86d7ff;
   --contrast-color: #ffffff;
 }
 
@@ -727,17 +727,21 @@ section,
 --------------------------------------------------------------*/
 .about .container {
   background-color: var(--surface-color);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.315);
   padding: 30px;
 }
 
 .about .skills-content h5 {
+  color:#86d7ff; 
+  background-color: #000000;
   font-size: 18px;
   font-weight: 700;
   margin: 30px 0 15px 0;
 }
 
 .about .progress {
+  color:#86d7ff; 
+  background-color: #000000;
   height: 36px;
   display: block;
   background: none;
@@ -746,7 +750,8 @@ section,
 }
 
 .about .progress .skill {
-  color: var(--default-color);
+  color:#86d7ff; 
+  background-color: #000000;
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -769,7 +774,8 @@ section,
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--accent-color);
+  color:#86d7ff; 
+  background-color: #86d7ff;
 }
 
 .about .about-me h4 {
@@ -1627,7 +1633,7 @@ section,
 
 /* Change color on hover */
 .social-icons a:hover {
-  color: #0078ff; /* Lighter blue - Change this to your hover color */
+  color: #86d7ff; /* Lighter blue - Change this to your hover -mdor */
 }
 /*--------------------------------------------------------------
 # Starter Section Section
